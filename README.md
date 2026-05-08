@@ -48,30 +48,30 @@ FD-Unet/
 
 ```bash
 Adversarial-noise-generation-modeling-based-image-denoising-method-for-low-light-CMOS-sensors/
-├── FD-Unet/
-└── FDUNet_model/
+FD-Unet/
+├──  FDUNet_model/
     └── ours_0227
-         ├── FDUNET.pth.tar/
-    ├── datasets/             # Data preprocessing and loading
-    ├── models/               # network architecture
-    ├── train.py              # training script
-    ├── infer.py              # testing script
-    └── utils.py              # model processing tools
+         └── FDUNET.pth.tar/
+├── datasets/             # Data preprocessing and loading
+├── models/               # network architecture
+├── train.py              # training script
+├── infer.py              # testing script
+└── utils.py              # model processing tools
 
-├── noise_generation/
-    ├── datasets/             # Data preprocessing and loading
-    ├── FDUNet/
-        └── FDUNet_model/
-            └── ref_0221
-                ├── best_model.pth/
-    ├── generation_model/
-        └── 2026-02-23
-            └── 13-52-09
-                ├── G.pth/
-    ├── models/               # network architecture
-    ├── config.py             # Parameter settings
-    ├── infer.py              # testing script
-    └── train.py              # training script
+noise_generation/
+├── datasets/             # Data preprocessing and loading
+├── FDUNet/
+    └── FDUNet_model/
+        └── ref_0221
+            └── best_model.pth/
+├── generation_model/
+     └── 2026-02-23
+         └── 13-52-09
+             └── G.pth/
+├── models/               # network architecture
+├── config.py             # Parameter settings
+├── infer.py              # testing script
+└── train.py              # training script
 ```
 
 ## 🚀 Training & Testing
@@ -115,24 +115,24 @@ python infer.py
 For noise_generation, We provide trained models in the generation_model/ and FDUNet/ directory:
 
 ```
-├── noise_generation/
-    └── FDUNet/
-        └── FDUNet_model/
-            └── ref_0221
-                ├── best_model.pth/
-├── noise_generation/
-    └── generation_model/
-        └── 2026-02-23
-              └── 13-52-09
-                  ├── G.pth/
+noise_generation/
+├── FDUNet/
+    └── FDUNet_model/
+        └── ref_0221
+            └── best_model.pth/
+ 
+generation_model/
+├── 2026-02-23
+    └── 13-52-09
+        └── G.pth/
 ```                  
 For FD-Unet, please download the trained model and place it in the following directory:
 
 ```
-├── FD-Unet/
-    └── FDUNet_model/
-        └── ours_0227
-             ├── FDUNET.pth.tar/
+FD-Unet/
+├── FDUNet_model/
+    └── ours_0227
+        └── FDUNET.pth.tar/
 ```
 - Pre-trained model: https://pan.baidu.com/s/1L-37kO5Vd4Q9UihnZAZXUg?pwd=ccue 
 
