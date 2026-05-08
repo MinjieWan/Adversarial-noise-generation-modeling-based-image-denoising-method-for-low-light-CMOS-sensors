@@ -49,16 +49,16 @@ FD-Unet/
 ```bash
 Adversarial-noise-generation-modeling-based-image-denoising-method-for-low-light-CMOS-sensors/
 ├── FD-Unet/
-├── FDUNet_model/
-│   └── ours_0227
+└── FDUNet_model/
+    └── ours_0227
          ├── FDUNET.pth.tar/
-│   ├── datasets/             # Data preprocessing and loading
-│   ├── models/               # network architecture
-│   ├── train.py              # training script
-│   ├── infer.py              # testing script
-│   └── utils.py              # model processing tools
-│
-└── noise_generation/
+    ├── datasets/             # Data preprocessing and loading
+    ├── models/               # network architecture
+    ├── train.py              # training script
+    ├── infer.py              # testing script
+    └── utils.py              # model processing tools
+
+├── noise_generation/
     ├── datasets/             # Data preprocessing and loading
     ├── FDUNet/
         └── FDUNet_model/
