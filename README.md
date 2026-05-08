@@ -120,7 +120,7 @@ For noise_generation, We provide trained models in the generation_model/ and FDU
         └── FDUNet_model/
             └── ref_0221
                 ├── best_model.pth/
-└── noise_generation/
+├── noise_generation/
     └── generation_model/
         └── 2026-02-23
               └── 13-52-09
