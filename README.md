@@ -113,6 +113,8 @@ python infer.py
 ## 📦 Pre-trained Models
 
 For noise_generation, We provide trained models in the generation_model/ and FDUNet/ directory:
+
+```
 ├── noise_generation/
     └── FDUNet/
         └── FDUNet_model/
@@ -123,7 +125,7 @@ For noise_generation, We provide trained models in the generation_model/ and FDU
         └── 2026-02-23
               └── 13-52-09
                   ├── G.pth/
-                  
+```                  
 For FD-Unet, please download the trained model and place it in the following directory:
 
 ```
