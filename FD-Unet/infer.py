@@ -10,7 +10,7 @@ from models.FD_Unet import FD_UNET
 # ---------------- Parameter ----------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model_path = "/home/invid/chenhao/lowlight_noise_project/Code/FD-Unet/FDUNet_model/ours_0227/FDUNET.pth.tar"
+model_path = "./FDUNet_model/ours_0227/FDUNET.pth.tar"
 input_dir = "./test/input2"
 gt_dir = "./test/gt2"
 save_dir = "./FDUNet_result/ours_0227"
