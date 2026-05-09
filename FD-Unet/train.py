@@ -18,7 +18,7 @@ parser.add_argument('--bs', default=1, type=int)
 parser.add_argument('--ps', default=512, type=int)
 parser.add_argument('--lr', default=2e-4, type=float)
 parser.add_argument('--epochs', default=3000, type=int)
-parser.add_argument('--train_dataset', type=str, default='/home/invid/chenhao/lowlight_noise_project/Code/FD-Unet/train/ours_0227')
+parser.add_argument('--train_dataset', type=str, default='./train/ours_0227')
 parser.add_argument('--save_dir', type=str, default='./FDUNet_model/ours_0227/')
 parser.add_argument('--gpu', type=str, default='0')
 
