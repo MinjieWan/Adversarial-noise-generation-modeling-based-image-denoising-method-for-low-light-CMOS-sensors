@@ -36,7 +36,7 @@ RESULTS_DIR = "./results"
 # ============================================================
 N_IMAGES = 300
 INPUT_DIR = "./train/gt2"
-GENERATOR_WEIGHTS = "/home/invid/chenhao/lowlight_noise_project/Code/noise_generation/generation_model/2026-02-23/13-52-09/G.pth"
+GENERATOR_WEIGHTS = "./generation_model/2026-02-23/13-52-09/G.pth"
 
 # ============================================================
 # Denoising Network Weight Path
