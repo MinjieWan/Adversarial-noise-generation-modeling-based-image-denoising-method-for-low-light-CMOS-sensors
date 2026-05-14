@@ -11,8 +11,8 @@ from models.FD_UNet import FD_UNET
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model_path = "./FDUNet_model/FDUNET.pth.tar"
-input_dir = "./test/input1"
-gt_dir = "./test/gt1"
+input_dir = "./test/input"
+gt_dir = "./test/gt"
 save_dir = "./FDUNet_result/ours"
 os.makedirs(save_dir, exist_ok=True)
 
