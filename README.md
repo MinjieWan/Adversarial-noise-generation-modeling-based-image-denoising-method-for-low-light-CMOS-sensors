@@ -23,22 +23,22 @@ The full dataset  are not included in this repository due to their large file si
 
 Please download them manually and place them in the following structure.
 
-- Dataset： https://pan.baidu.com/s/18uynyJvgBpRNAHEPfXfI1A?pwd=msfr 
+- Dataset：  https://pan.baidu.com/s/1AmYGFOHSoJGz_QHvhs4ZJQ?pwd=rf66 
 
 Expected structure:
 
 ```
 noise_generation/
 └── train/
-    ├── input2/
-    ├── gt2/
+    ├── input/
+    ├── gt/
     
-FD-Unet/
+FD-UNet/
 └── train/
-    ├── ours_0227/
+    ├── ours/
 └── test/
-    ├── input2/
-    ├── gt2/
+    ├── input/
+    ├── gt/
 ```
 
 
@@ -48,9 +48,8 @@ FD-Unet/
 
 ```bash
 Adversarial-noise-generation-modeling-based-image-denoising-method-for-low-light-CMOS-sensors/
-FD-Unet/
+FD-UNet/
 ├──  FDUNet_model/
-    └── ours_0227
          └── FDUNET.pth.tar/
 ├── datasets/             # Data preprocessing and loading
 ├── models/               # network architecture
@@ -62,12 +61,9 @@ noise_generation/
 ├── datasets/             # Data preprocessing and loading
 ├── FDUNet/
     └── FDUNet_model/
-        └── ref_0221
             └── best_model.pth/
 ├── generation_model/
-     └── 2026-02-23
-         └── 13-52-09
-             └── G.pth/
+    └── G.pth/
 ├── models/               # network architecture
 ├── config.py             # Parameter settings
 ├── infer.py              # testing script
@@ -118,21 +114,17 @@ For noise_generation, We provide trained models in the generation_model/ and FDU
 noise_generation/
 ├── FDUNet/
     └── FDUNet_model/
-        └── ref_0221
             └── best_model.pth/
  
 generation_model/
-├── 2026-02-23
-    └── 13-52-09
-        └── G.pth/
+└── G.pth/
 ```                  
-For FD-Unet, please download the trained model and place it in the following directory:
+For FD-UNet, please download the trained model and place it in the following directory:
 
 ```
-FD-Unet/
+FD-UNet/
 ├── FDUNet_model/
-    └── ours_0227
         └── FDUNET.pth.tar/
 ```
-- Pre-trained model: https://pan.baidu.com/s/1L-37kO5Vd4Q9UihnZAZXUg?pwd=ccue 
+- Pre-trained model:  https://pan.baidu.com/s/1o5CMmTaSnumxpHKfS58EGg?pwd=3a1i 
 
