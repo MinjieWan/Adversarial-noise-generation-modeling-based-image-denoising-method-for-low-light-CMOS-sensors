@@ -115,9 +115,9 @@ noise_generation/
 ├── FDUNet/
     └── FDUNet_model/
             └── best_model.pth/
- 
-generation_model/
-└── G.pth/
+noise_generation/ 
+├──generation_model/
+   └── G.pth/
 ```                  
 For FD-UNet, please download the trained model and place it in the following directory:
 
