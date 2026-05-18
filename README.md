@@ -1,6 +1,6 @@
 # Adversarial-noise-generation-modeling-based-image-denoising-method-for-low-light-CMOS-sensors
 
-Official PyTorch implementations of FDA adversarial noise generation model and FD-UNet.
+Official PyTorch implementation of FD-UNet.
 
 ---
 
